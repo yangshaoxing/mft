@@ -1,6 +1,99 @@
 {
     "sites": [
         {
+            "key": "csp_速播",
+            "name": "速播",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/速播.json"
+        },
+        {
+            "key": "360资源",
+            "name": "360",
+            "type": 1,
+            "api": "https://360zy.com/api.php/provide/vod",
+            "playUrl": "",
+            "categories": [
+                "爽文短剧",
+                "国产剧",
+                "国产动漫",
+                "动画电影",
+                "网络电影",
+                "动作片",
+                "喜剧片",
+                "灾难片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "港台剧",
+                "日韩剧",
+                "欧美剧",
+                "惊悚片",
+                "犯罪片",
+                "冒险片",
+                "悬疑片",
+                "武侠片",
+                "奇幻片",
+                "国产综艺"
+            ],
+            "jar": "./JAR/fan.txt;md5;8851819289f80deae32319080028db3b"
+        },
+        {
+            "key": "csp_XBPQ_好看的",
+            "name": "好看的",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "发布页": "https://www.nmdvd.com/",
+                "二次截取": "</i>海报</a></h4></div>&&<div class=\"footer",
+                "数组": "<li>&&</li>",
+                "图片": "src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "<font>&&</font>",
+                "搜索url": "https://www.wwgz.cn/vod-search-pg-{pg}-wd-{wd}.html",
+                "搜索二次截取": "</i>海报</a></h4></div>&&<div class=\"footer",
+                "搜索数组": "<li>&&</li>",
+                "搜索图片": "src=\"&&\"",
+                "搜索标题": "title=\"&&\"",
+                "搜索副标题": "<font>&&</font>",
+                "分类url": "https://www.wwgz.cn/vod-type-id-{cateId}-pg-{catePg}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#记录$26"
+            },
+            "jar": "./jar/XBPQ.jar"
+        },
+        {
+            "key": "csp_XBPQ_4kjuyuan",
+            "name": "4K剧院",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+                "分类url": "https://4k4k.live/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html"
+            },
+            "jar": "./jar/XBPQ.jar"
+        },
+        {
+            "key": "木叶",
+            "name": "木叶",
+            "type": 3,
+            "api": "csp_Muye",
+            "playerType": 2,
+            "ext": "cMS4wLjl8aHR0cDovLzExMy40NS4xMzUuMTAwOjYxMTB8NWNlOGJmYTB8MTAwOXw1Njg2ODU0MzRGRUM3QzhDMjkwQUU0RkIzMjVGRjEzMHxzaGlqaWVtYW90dnw3NjU0ODdmNmIzODY2ODI4",
+            "jar": "./jar/fix24108.jar"
+        },
+        {
             "key": "南瓜",
             "name": "南瓜",
             "type": 3,
@@ -37,15 +130,6 @@
             "api": "csp_Syys",
             "playerType": 1,
             "ext": "caHR0cDovLzguMjEwLjM0LjE0MzoxMTIyfHpodWl5aTg4ODg4NjY2NjZ8emh1aXlpODg4ODg2NjY2Ng==",
-            "jar": "./jar/fix24108.jar"
-        },
-        {
-            "key": "木叶",
-            "name": "木叶",
-            "type": 3,
-            "api": "csp_Muye",
-            "playerType": 2,
-            "ext": "cMS4wLjl8aHR0cDovLzExMy40NS4xMzUuMTAwOjYxMTB8NWNlOGJmYTB8MTAwOXw1Njg2ODU0MzRGRUM3QzhDMjkwQUU0RkIzMjVGRjEzMHxzaGlqaWVtYW90dnw3NjU0ODdmNmIzODY2ODI4",
             "jar": "./jar/fix24108.jar"
         },
         {
@@ -91,32 +175,6 @@
                 "搜索副标题": "class=\"boottom\"*<div>&&</div",
                 "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
                 "分类url": "https://www.hkybqufgh.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
-            },
-            "jar": "./jar/XBPQ.jar"
-        },
-        {
-            "key": "csp_XBPQ_好看的",
-            "name": "好看的",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": {
-                "发布页": "https://www.nmdvd.com/",
-                "二次截取": "</i>海报</a></h4></div>&&<div class=\"footer",
-                "数组": "<li>&&</li>",
-                "图片": "src=\"&&\"",
-                "标题": "title=\"&&\"",
-                "副标题": "<font>&&</font>",
-                "搜索url": "https://www.wwgz.cn/vod-search-pg-{pg}-wd-{wd}.html",
-                "搜索二次截取": "</i>海报</a></h4></div>&&<div class=\"footer",
-                "搜索数组": "<li>&&</li>",
-                "搜索图片": "src=\"&&\"",
-                "搜索标题": "title=\"&&\"",
-                "搜索副标题": "<font>&&</font>",
-                "分类url": "https://www.wwgz.cn/vod-type-id-{cateId}-pg-{catePg}.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#记录$26"
             },
             "jar": "./jar/XBPQ.jar"
         },
@@ -169,20 +227,6 @@
             "type": 3,
             "api": "https://gitee.com/lujun189/ceshi/raw/master/1/libs/drpy2.min.js",
             "ext": "./js/厂长.js",
-            "jar": "./jar/XBPQ.jar"
-        },
-        {
-            "key": "csp_XBPQ_4kjuyuan",
-            "name": "4K剧院",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": {
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-                "分类url": "https://4k4k.live/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html"
-            },
             "jar": "./jar/XBPQ.jar"
         },
         {
@@ -307,17 +351,6 @@
             }
         },
         {
-            "key": "csp_速播",
-            "name": "速播",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/速播.json"
-        },
-        {
             "key": "saohuo",
             "name": "骚火",
             "type": 3,
@@ -366,39 +399,6 @@
             "api": "csp_XBPQ",
             "jar": "./jar/XBPQ.jar",
             "ext": "./json/淘剧.json"
-        },
-        {
-            "key": "360资源",
-            "name": "360",
-            "type": 1,
-            "api": "https://360zy.com/api.php/provide/vod",
-            "playUrl": "",
-            "categories": [
-                "爽文短剧",
-                "国产剧",
-                "国产动漫",
-                "动画电影",
-                "网络电影",
-                "动作片",
-                "喜剧片",
-                "灾难片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "港台剧",
-                "日韩剧",
-                "欧美剧",
-                "惊悚片",
-                "犯罪片",
-                "冒险片",
-                "悬疑片",
-                "武侠片",
-                "奇幻片",
-                "国产综艺"
-            ],
-            "jar": "./JAR/fan.txt;md5;8851819289f80deae32319080028db3b"
         },
         {
             "key": "AI3",
