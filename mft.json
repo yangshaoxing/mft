@@ -1,0 +1,640 @@
+{
+    "sites": [
+        {
+            "key": "影图资源",
+            "name": "影图采集",
+            "type": 1,
+            "api": "https://cj.vodimg.top/api.php/provide/vod/",
+            "jar": "https://www.xplaza.cn/api/repo/ugB0S2uQhGaqSxXd/yuyu/bWFpbg==/getFile/eGMxMTEyLnppcA==?isDownload=true"
+        },
+        {
+            "key": "墨白影视",
+            "name": "墨白快播",
+            "type": 1,
+            "api": "https://nm.xxxc137.top/api.php/provide/vod/",
+            "jar": "https://www.xplaza.cn/api/repo/ugB0S2uQhGaqSxXd/yuyu/bWFpbg==/getFile/eGMxMTEyLnppcA==?isDownload=true"
+        },
+        {
+            "key": "皇冠影视",
+            "name": "皇冠快播",
+            "type": 1,
+            "api": "https://hong.hgyx.vip/api.php/provide/vod/",
+            "jar": "https://www.xplaza.cn/api/repo/ugB0S2uQhGaqSxXd/yuyu/bWFpbg==/getFile/eGMxMTEyLnppcA==?isDownload=true"
+        },
+        {
+            "key": "fxz欢视",
+            "name": "欢视",
+            "type": 3,
+            "api": "csp_AppTT",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "./jar/c.jar",
+            "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
+        },
+        {
+            "key": "天天影视",
+            "name": "天天",
+            "type": 3,
+            "api": "csp_AppTT",
+            "jar": "https://www.xplaza.cn/api/repo/ugB0S2uQhGaqSxXd/yuyu/bWFpbg==/getFile/MTEwNS5qYXI=?isDownload=true;md5;7e2f6ef2a5dce8b152dadefa6c7d4ba7",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_Jpys",
+            "name": "文才",
+            "type": 3,
+            "api": "csp_Jpys",
+            "jar": "https://www.xplaza.cn/api/repo/ugB0S2uQhGaqSxXd/yuyu/bWFpbg==/getFile/MTEwNS5qYXI=?isDownload=true;md5;7e2f6ef2a5dce8b152dadefa6c7d4ba7",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "月惜花晨",
+            "name": "华辰",
+            "type": 3,
+            "api": "http://xn--v6q485m.xn--esstbv41m2ra.icu/js/smdy.js",
+            "style": {
+                "type": "rect",
+                "ratio": 0.65
+            },
+            "ext": "./js/月惜花晨.js",
+            "jar": "https://www.xplaza.cn/api/repo/ugB0S2uQhGaqSxXd/yuyu/bWFpbg==/getFile/eGMxMTEyLnppcA==?isDownload=true"
+        },
+        {
+            "key": "AppBro",
+            "name": "兄弟",
+            "type": 3,
+            "api": "csp_AppGetApp",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "KhYl01Kekjo9vLs09V+rOtv/6QaOFwdQp2ne4h22GLkT99eCXh9SJ/lGZNM8zgk1OnFWx0zBQ9Y/9mAjQB67LaEp7Yj7w9SYBEjFbdPjKy3EHp7uBIHXVI7/dZ4r/dJapz6ihlWwqY2KlGuarL/+9suxO4ZJFOg1OxN+dTrTbi2Muff1CmBkNfrY+sENTEbHAsgpQRtycD7pjvPePZ1AgNT8ZuBCcf4lIM858OSMK4u76tpjIfqzVA==",
+            "jar": "https://www.xplaza.cn/api/repo/ugB0S2uQhGaqSxXd/yuyu/bWFpbg==/getFile/eGMxMTEyLnppcA==?isDownload=true"
+        },
+        {
+            "key": "AI4",
+            "name": "AI4",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "playerType": 2,
+            "ext": "iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q=",
+            "jar": "./jar/fix241114.jar"
+        },
+        {
+            "ext": "eyJhcGkiOiJodHRwOi8vMTkyLjE2OC4xLjI6NDU2NyIsInRva2VuIjoiIn0=",
+            "filterable": 1,
+            "quickSearch": 1,
+            "name": "Alist-YSX",
+            "changeable": 0,
+            "jar": "./jar/spring.jar",
+            "api": "csp_XiaoYa",
+            "type": 3,
+            "key": "csp_XiaoYa",
+            "searchable": 1
+        },
+        {
+            "ext": "eyJhcGkiOiJodHRwOi8vMTkyLjE2OC4xLjI6NDU2NyIsInRva2VuIjoiIn0=",
+            "filterable": 1,
+            "quickSearch": 1,
+            "name": "AList",
+            "changeable": 0,
+            "jar": "./jar/spring.jar",
+            "api": "csp_AList",
+            "type": 3,
+            "key": "csp_AList",
+            "searchable": 1
+        },
+        {
+            "key": "荐片",
+            "name": "荐片P2P",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": "1",
+            "api": "https://gitee.com/lujun189/ceshi/raw/master/1/libs/drpy2.min.js",
+            "ext": "./js/荐片[优].js",
+            "jar": "./jar/XBPQ.jar"
+        },
+        {
+            "key": "片多多",
+            "name": "片多多",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "https://gitee.com/lujun189/ceshi/raw/master/1/libs/drpy2.min.js",
+            "ext": "./js/片多多.js",
+            "jar": "./jar/XBPQ.jar"
+        },
+        {
+            "key": "csp_XBPQ_4kjuyuan",
+            "name": "4K剧院",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "数组": "module-items module-poster-items-base&&</a>",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+                "分类url": "https://4k4k.live/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html"
+            },
+            "jar": "./jar/XBPQ.jar"
+        },
+        {
+            "key": "贱贱",
+            "name": "荐片",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": "1",
+            "api": "./JS/lib/drpy.min.js",
+            "ext": "./js/荐片.js",
+            "jar": "./JAR/fan.txt;md5;4fedd98faf90e84f8cccf2e447e1f41f"
+        },
+        {
+            "key": "hipy_js_多多追剧[优]",
+            "name": "多多追剧",
+            "type": 3,
+            "api": "https://git.acwing.com/iduoduo/orange/-/raw/main/drpy_libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./js/多多追剧[优].js",
+            "jar": "./JAR/fan.txt;md5;4fedd98faf90e84f8cccf2e447e1f41f"
+        },
+        {
+            "key": "fxzjpyy",
+            "name": "金牌",
+            "type": 3,
+            "api": "csp_Jpys",
+            "searchable": 1,
+            "changeable": 1,
+            "playerType": 1,
+            "jar": "./jar/分享者c.jar"
+        },
+        {
+            "key": "fxz凡人追剧",
+            "name": "凡人",
+            "type": 3,
+            "api": "csp_AppFr",
+            "jar": "https://ghproxy.cn/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/jar/分享者F.zip",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "KhYl01KelCEl+6MsvwnzaPusskytDBtcrHmF5gioReBS94fKHAcEZKYBPY49yQk2cmRHx02ABdJlrmBGDCSmDqsO+8bj25/UQR7nNZL4MyO9j3Ebzzhd6eXcFfgLedFRrj+RspzamxuLlU2XhI4spvLmabEoV8Ts/4XM0/Q5eGrZuYyyWwcjDb2Rkc9LDxfLCQ=="
+        },
+        {
+            "key": "hipy_js_fxz闪电",
+            "name": "闪电",
+            "type": 3,
+            "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/maoystv/000/master/js/drpy2.min.js",
+            "ext": "./js/闪雷电.js",
+            "jar": "https://ghproxy.cn/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/jar/分享者0.zip;md5;4a8c0010a0abe47752164ac3e57f8765"
+        },
+        {
+            "key": "TgYunPan|服务器",
+            "name": "电报",
+            "type": 3,
+            "api": "csp_TgYunPan",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "jar": "https://ghproxy.cn/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/jar/FXZzx.zip",
+            "ext": {
+                "siteUrl": "http://45.207.209.177:9999",
+                "channelUsername": "alypzyhzq,Mbox115,shares_115,Quark_Share_Channel,Aliyundrive_Share_Channel,wanwansubchat,hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
+                "commonConfig": "https://ghproxy.cn/https://raw.githubusercontent.com/maoystv/6/main/jar/peizhi.json"
+            }
+        },
+        {
+            "key": "木叶",
+            "name": "木叶",
+            "type": 3,
+            "api": "csp_Frong",
+            "playerType": 2,
+            "ext": "cMS4wLjl8aHR0cDovLzExMy40NS4xMzUuMTAwOjYxMTB8NWNlOGJmYTB8MTAwOXw1Njg2ODU0MzRGRUM3QzhDMjkwQUU0RkIzMjVGRjEzMHxzaGlqaWVtYW90dnw3NjU0ODdmNmIzODY2ODI4",
+            "jar": "./jar/fix241114.jar"
+        },
+        {
+            "key": "NoSearch_csp_BBB",
+            "name": "哔哩哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "naHR0cHM6Ly93d3cucWlhb2ppOC5jb20vdHZib3gvYmlsaS5qc29u",
+            "jar": "./jar/fix241114.jar"
+        },
+        {
+            "key": "csp_BBB",
+            "name": "️套餐哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./json/哔哩套餐1.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "Bili",
+            "name": "️套餐2哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./json/哔哩套餐2.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "演唱会",
+            "name": "演唱会哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./json/演唱会.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "合集",
+            "name": "哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/合集.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "MV",
+            "name": "歌曲哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./json/歌曲MV.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "美食",
+            "name": "美食哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./json/美食.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "儿童口才",
+            "name": "口才",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/儿童口才.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "儿童拼音",
+            "name": "拼音",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/儿童拼音.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "儿童识字",
+            "name": "识字",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/儿童识字.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "儿童思维",
+            "name": "思维",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/儿童思维.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "儿童英语",
+            "name": "英语",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/儿童英语.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "儿童硬笔",
+            "name": "硬笔",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/儿童硬笔.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "儿童编程",
+            "name": "编程",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/儿童编程.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "儿童武术",
+            "name": "武术",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/儿童武术.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "学堂",
+            "name": "学堂",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./json/学堂教育.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "小学课堂",
+            "name": "小学",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./json/小学课堂.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "初中课堂",
+            "name": "初中",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./json/初中课堂.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "高中课堂",
+            "name": "高中",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./json/高中课堂.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "少儿",
+            "name": "少儿",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./json/少儿合集.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "小灯塔科学",
+            "name": "科学",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/小灯塔科学.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "小灯塔地理",
+            "name": "地理",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/小灯塔地理.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "小灯塔百科",
+            "name": "百科",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/小灯塔百科.json",
+            "jar": "./jar/ou.jar"
+        },
+        {
+            "key": "小灯塔国学",
+            "name": "国学",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/小灯塔国学.json",
+            "jar": "./jar/ou.jar"
+        }
+    ],
+    "lives": [
+        {
+            "name": "live",
+            "type": 0,
+            "url": "./lives/live.m3u8",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+        }
+    ],
+    "parses": [
+        {
+            "name": "解析聚合",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "Json并发",
+            "type": 2,
+            "url": "Parallel"
+        },
+        {
+            "name": "Json轮询",
+            "type": 2,
+            "url": "Sequence"
+        },
+        {
+            "name": "解析1",
+            "type": 1,
+            "url": "https://jf.lemiaoyun.cn/api/?key=86950663b3198d25885fdf61501a3366&url="
+        },
+        {
+            "name": "解析2",
+            "type": 1,
+            "url": "https://jxjson.icu/neibu.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "letv",
+                    "乐视",
+                    "pptv",
+                    "PPTV",
+                    "sohu",
+                    "bilibili",
+                    "哔哩哔哩",
+                    "哔哩"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.1.0"
+                }
+            }
+        },
+        {
+            "name": "解析3",
+            "type": 0,
+            "url": "https://www.yemu.xyz/?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "qiyi",
+                    "mgtv",
+                    "youku",
+                    "letv",
+                    "sohu",
+                    "xigua",
+                    "1905",
+                    "优播线路",
+                    "腾播线路"
+                ],
+                "header": {
+                    "User-Agent": "Dart/2.14 (dart:io)"
+                }
+            }
+        },
+        {
+            "name": "解析4",
+            "type": 0,
+            "url": "https://api.jiexi.la/?url="
+        },
+        {
+            "name": "解析5",
+            "type": 1,
+            "url": "http://104.36.85.41/xo/mgtvck.php?url="
+        },
+        {
+            "name": "解析6",
+            "type": 1,
+            "url": "http://47.97.154.252/letv.php?url="
+        },
+        {
+            "name": "解析7",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url="
+        },
+        {
+            "name": "解析8",
+            "type": 0,
+            "url": "https://okjx.cc/?url="
+        },
+        {
+            "name": "解析9",
+            "type": 1,
+            "url": ""
+        },
+        {
+            "name": "解析10",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url="
+        },
+        {
+            "name": "解析11",
+            "type": 1,
+            "url": "http://47.97.154.252/iqiyi.php?url="
+        },
+        {
+            "name": "解析12",
+            "type": 1,
+            "url": "http://47.97.154.252/youku.php?url="
+        },
+        {
+            "name": "解析13",
+            "type": 0,
+            "url": "http://api.wpsseo.cn/?v="
+        },
+        {
+            "name": "解析14",
+            "type": 0,
+            "url": "https://go.yh0523.cn/y.cy?url="
+        },
+        {
+            "name": "解析15",
+            "type": 1,
+            "url": "http://47.97.154.252/iqiyi.php?url="
+        },
+        {
+            "name": "解析16",
+            "type": 1,
+            "url": "http://47.97.154.252/vqq/vqq.php?url="
+        }
+    ]
+}
